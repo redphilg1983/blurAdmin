@@ -1,4 +1,4 @@
-<div ng-controller="demoController">
+<div ng-controller="vennCtrl">
   <div class="container well">
     <div venn="vennData"></div>
   </div>
@@ -12,9 +12,26 @@
       <div ng-repeat="set in vennData" class="form-group">
         <label class="col-sm-2 control-label">{{set.sets}}</label>
         <div class="col-sm-10">
-          <input ng-model="set.size" type="number" class="form-control"/>
+          <input ng-model="set.size" type="number" class="form-control" />
         </div>
       </div>
     </form>
   </div>
 </div>
+<!-- 
+<script src="../../../app.js"></script>
+
+
+
+<script src="../../../../../bower_components/angular/angular.min.js"></script>
+<script src="../../../../../bower_components/jquery/dist/jquery.min.js"></script>
+-->
+
+
+<script src="../../../../../bower_components/d3/d3.min.js"></script>
+<script src="../../../../../bower_components/venn.js/venn.js"></script>
+<script src="../../../../../bower_components/angular-venn/angular-venn.js"></script>
+
+
+
+<link href="../../../../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

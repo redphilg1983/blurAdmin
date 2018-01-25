@@ -22,7 +22,7 @@
             templateUrl: 'app/pages/charts/vennChart/venn.html',
             title: 'Venn',
             sidebarMeta: {
-              order: 300,
+              order: 400,
             }
           });
     }

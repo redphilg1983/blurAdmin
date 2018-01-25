@@ -1,7 +1,7 @@
 angular.module('BlurAdmin.pages.charts.vennChart')
-.controller('demoController', demoController)
+.controller('vennCtrl', vennCtrl)
 
-function demoController($scope, $window, baConfig) {
+function vennCtrl($scope, $window, baConfig) {
 	$scope.vennData = [
 		{sets: ['Foo'], size: 12},
 		{sets: ['Bar'], size: 12},
